@@ -9,7 +9,11 @@ program racines_carrees ! Du livre de Claude Delannoy, Programmer en Fortran, Ey
 
 ! instructions
 
-  print *, 'Bonjour - je vais vous calculer ', nrac, ' racines carrees'  ! Sortie * indique un format. Les ' peuveunt aussi être des "
+  print *, 'Bonjour - je vais vous calculer ', nrac, ' racines carrees' ! Sortie
+  ! * indique un format
+  ! Les affichages sont précédés d'un caractère de contrôle (espace blanc par défaut)
+  ! Les ' peuveunt aussi être des "
+  ! Par défaut, l'instruction se termine par un retour à la ligne
   do i = 1, nrac  ! Boucle: de 1 qui vaut 1 jusqu'à sa valeur nrac
     print *, 'Donnez un nombre :' 
     read *, valeur
