@@ -2,6 +2,7 @@
 program racines_carrees ! Du livre de Claude Delannoy, Programmer en Fortran, Eyrolles, p.2
 
  ! déclarations
+ ! Les déclarations de type ne sont pas obligatoires: lorsque le type d'un variable n'est pas déclaré, un type est attribué en fonction de la première lettre de la variable.
 
   integer :: i, nrac = 5 ! Le type, et puis deux variables, une avec affectation
   real ::    valeur, racine
