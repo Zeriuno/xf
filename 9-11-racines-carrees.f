@@ -5,6 +5,7 @@ program racines_carrees ! Du livre de Claude Delannoy, Programmer en Fortran, Ey
  ! Les déclarations de type ne sont pas obligatoires: lorsque le type d'un variable n'est pas déclaré, un type est attribué en fonction de la première lettre de la variable.
 
   integer :: i, nrac = 5
+  ! Autre syntaxe possible "integer::i,nrac=5"
   real ::    valeur, racine
   ! Le type, et puis deux variables, une avec affectation
   ! L'identificateur est composé de lettres et ou de chiffres
