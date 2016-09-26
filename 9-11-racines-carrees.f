@@ -7,7 +7,9 @@ program racines_carrees ! Du livre de Claude Delannoy, Programmer en Fortran, Ey
   integer :: i, nrac = 5
   real ::    valeur, racine
   ! Le type, et puis deux variables, une avec affectation
+  ! L'identificateur est composé de lettres et ou de chiffres
   ! Le '_' est un caractère accepté
+  ! La casse est acceptée mais pas reconnue ('A' est égal à 'a').
 
 ! instructions
 
