@@ -11,6 +11,10 @@ program racines_carrees ! Du livre de Claude Delannoy, Programmer en Fortran, Ey
   ! L'identificateur est composé de lettres et ou de chiffres
   ! Le '_' est un caractère accepté
   ! La casse est acceptée mais pas reconnue ('A' est égal à 'a').
+  ! Longueur limitée:
+  ! * 6 charactères FORTRAN 77
+  ! * 31 charactères FORTRAN 90
+  ! * 63 charactères FORTRAN 2003
 
 ! instructions
 
