@@ -20,6 +20,8 @@ program racines_carrees ! Du livre de Claude Delannoy, Programmer en Fortran, Ey
 
   print *, 'Bonjour - je vais vous calculer ', nrac, ' racines carrees' ! Sortie
   ! * indique un format
+  ! format libre (l'autre est le format fixe)
+  !   Longueur des lignes à concurrence de 132 charactères
   ! Les affichages sont précédés d'un caractère de contrôle (espace blanc par défaut)
   ! Les ' peuveunt aussi être des "
   ! Par défaut, l'instruction se termine par un retour à la ligne
