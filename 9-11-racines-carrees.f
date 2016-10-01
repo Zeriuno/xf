@@ -22,6 +22,13 @@ program racines_carrees ! Du livre de Claude Delannoy, Programmer en Fortran, Ey
   ! * indique un format
   ! format libre (l'autre est le format fixe)
   !   Longueur des lignes à concurrence de 132 charactères
+  ! format fixe (pour garantir la compatibilité avec le format de Fortran 77)
+  !   colonnes 1 à 5 pour l'étiquette
+  !   colonne 6 pour '&' éventuel
+  !   colonnes 7 à 72 pour les instructions
+  !   Les espaces ne sont pas prises en compte
+  !   La compilation précise quel format utiliser (par défaut, libre). La récupération de code écrit en 77 se fait grâce à la "compilation séparée"
+  !
   ! Les affichages sont précédés d'un caractère de contrôle (espace blanc par défaut)
   ! Les ' peuveunt aussi être des "
   ! Par défaut, l'instruction se termine par un retour à la ligne
